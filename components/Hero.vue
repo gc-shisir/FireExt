@@ -2,7 +2,7 @@
   <div class="hero container">
     <div class="text-container">
       <h1 class="header">Find Your Fire Extinguisher</h1>
-      <p class="snippit">
+      <p class="snippet">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam eveniet
         sequi quae omnis necessitatibus mollitia, vero quia veritatis non
         similique.
@@ -23,7 +23,7 @@ export default {}
 
 <style scoped>
 .hero {
-  height: 50vh;
+  height: 100vh;
   position: relative;
   display: flex;
   padding: 5rem 0;
