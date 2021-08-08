@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">FireExt</a>
+      <NuxtLink class="navbar-brand" to="#">FireExt</NuxtLink>
       <button
         class="navbar-toggler"
         type="button"
@@ -17,15 +17,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
+              <NuxtLink class="nav-link" to="/">
+                Home
+                <span class="sr-only">(current)</span>
+              </NuxtLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
+              <NuxtLink class="nav-link" to="/products">Products</NuxtLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">My Items</a>
+              <NuxtLink class="nav-link" to="/my-items">My Items</NuxtLink>
             </li>
           </ul>
         </div>
