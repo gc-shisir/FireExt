@@ -1,12 +1,14 @@
 <template>
-  <div>
-    <h2>My items</h2>
+  <div class="container">
+    <MyItem v-for="item in myRentals" :key="item.id" :item="item" />
   </div>
 </template>
 
 <script>
+import { mapState } from 'vuex'
 export default {
   layout: 'no-nav',
+  computed: { ...mapState(['myRentals']) },
 }
 </script>
 
