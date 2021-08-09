@@ -1,6 +1,5 @@
 <template>
   <div>
-  
     <div v-if="product" class="container py-5">
       <div class="hero-container">
         <img
@@ -67,7 +66,7 @@ export default {
 }
 </script>
 
-<style script>
+<style scoped>
 .hero-container {
   display: flex;
   justify-content: space-between;
