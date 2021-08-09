@@ -1,12 +1,13 @@
 <template>
   <div>
-    <NavBar />
     <h2>My items</h2>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  layout: 'no-nav',
+}
 </script>
 
 <style></style>

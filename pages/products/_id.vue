@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavBar />
+  
     <div v-if="product" class="container py-5">
       <div class="hero-container">
         <img
@@ -11,7 +11,7 @@
         <div class="info-box">
           <h1>{{ product.title }}</h1>
           <p class="snippet">{{ product.snippet }}</p>
-          <RentModal :product="product" />
+          <!-- <RentModal :product="product" /> -->
         </div>
       </div>
       <div class="whats-included-container">
@@ -49,10 +49,10 @@
           {{ product.description }}
         </p>
       </div>
-      <Reviews />
+      <!-- <Reviews /> -->
     </div>
     <div v-else class="container padding">
-      <PageNotFound />
+      <!-- <PageNotFound /> -->
     </div>
   </div>
 </template>

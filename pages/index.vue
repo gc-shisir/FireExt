@@ -1,6 +1,5 @@
 <template>
   <div class="">
-    <NavBar />
     <div class="container">
       <Hero />
       <LargeCardDisplay
@@ -14,7 +13,6 @@
         :cardsSection="cardInfo"
       />
     </div>
-    <Footer />
   </div>
 </template>
 
