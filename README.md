@@ -1,4 +1,5 @@
 # FireExt
+Web application showing a collection of fire extinguishers where you can rent a particular fire extinguisher among the available varieties
 
 ## Build Setup
 
